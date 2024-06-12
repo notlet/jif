@@ -1,0 +1,19 @@
+{
+  "name": "jif",
+  "version": "1.0.0",
+  "description": "amogus",
+  "main": "jif.js",
+  "scripts": {
+    "jif": "node jif.js",
+    "build": "./node_modules/.bin/pkg jif.js -t node18"
+  },
+  "author": "notlet",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
